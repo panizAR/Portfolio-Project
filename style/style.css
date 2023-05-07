@@ -56,3 +56,8 @@ h6 {
   background-color: var(--btnhovercolor) !important;
   color: #fff;
 }
+@media (max-width: 570px) {
+  .col-md-6 {
+    text-align: center;
+  }
+}
