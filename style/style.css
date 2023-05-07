@@ -2,6 +2,8 @@
   --primary-color: #f9f7fe;
   --primary-fontfamily: "Poppins", sans-serif;
   --second-font: "Playfair Display", serif;
+  --btncolor: #6c63ff;
+  --btnhovercolor: #4b44c8;
 }
 body {
   font-family: var(--primary-fontfamily);
@@ -16,14 +18,19 @@ body {
 p.fw-bold {
   font-size: 25px;
 }
-.Playfair700 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--second-font);
   font-weight: 700;
   font-size: 50px;
 }
 
 .btn-contact {
-  background-color: #6c63ff;
+  background-color: var(--btncolor);
   width: 100px;
   height: 50;
   color: #fff;
@@ -31,6 +38,21 @@ p.fw-bold {
   border-radius: 4px;
 }
 .btn-contact:hover {
-  background-color: #4b44c8 !important;
+  background-color: var(--btnhovercolor) !important;
+  color: #fff;
+}
+.p-info {
+  max-width: 514px;
+  text-align: justify;
+}
+.btn-text {
+  color: var(--btncolor);
+  border: 1px solid var(--btncolor);
+  border-radius: 5px;
+  font-size: 12px;
+  padding: 15px 30px;
+}
+.btn-text:hover {
+  background-color: var(--btnhovercolor) !important;
   color: #fff;
 }
