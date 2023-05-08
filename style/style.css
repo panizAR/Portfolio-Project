@@ -64,7 +64,8 @@ h6 {
 
 /* about pge css */
 .About-section,
-.work-section {
+.work-section,
+.contact-section {
   padding: 80px 0;
 }
 .About-section h1 {
@@ -106,4 +107,10 @@ h6 {
 }
 .work-box img {
   border-radius: 20px;
+}
+/* contact */
+.contact-section a {
+  color: #242424;
+  text-decoration: none;
+  font-family: var(--primary-fontfamily);
 }
